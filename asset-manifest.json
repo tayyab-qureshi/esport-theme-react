@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/esport-theme-react/static/css/main.f1ab1e15.css",
+    "main.js": "/esport-theme-react/static/js/main.593cca59.js",
+    "static/js/787.036aa0a6.chunk.js": "/esport-theme-react/static/js/787.036aa0a6.chunk.js",
+    "static/media/shopbanner-mit-text-1280x303.png": "/esport-theme-react/static/media/shopbanner-mit-text-1280x303.616054a28048d8643557.png",
+    "index.html": "/esport-theme-react/index.html",
+    "main.f1ab1e15.css.map": "/esport-theme-react/static/css/main.f1ab1e15.css.map",
+    "main.593cca59.js.map": "/esport-theme-react/static/js/main.593cca59.js.map",
+    "787.036aa0a6.chunk.js.map": "/esport-theme-react/static/js/787.036aa0a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1ab1e15.css",
+    "static/js/main.593cca59.js"
+  ]
+}
