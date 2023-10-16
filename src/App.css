@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #333333;
+}
+#root{
+  max-width: 1920px;
+
+}
+.SpecialCard::-webkit-scrollbar {
+  display: none; 
+}
+.BannerShop{
+    background-image: url(/public/img/shopbanner-mit-text-1280x303.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
