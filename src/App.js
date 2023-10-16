@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from './Components/Nav';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route , HashRouter } from 'react-router-dom';
 import Menu from './Components/Menu';
 import Footer from './Components/Footer';
 import Home from './Screen/Home';
@@ -17,21 +17,12 @@ class App extends React.Component {
       <div>
         <Nav />
         <Menu />
-        <Routes>
+        <Routes basename="/esport-theme-react">
           <Route path='/' element={<Home/>} />
           <Route path='/news' element={<News/>} />
           <Route path='/videos' element={<Videos/>} />
           <Route path='/specialdeals' element={<SpecialDeals/>} />
           <Route path='/shop' element={<Shop  />} />
-
-
-
-
-
-          
-
-
-
           
         </Routes>
         <Footer />

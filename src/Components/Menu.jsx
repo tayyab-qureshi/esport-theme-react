@@ -3,7 +3,7 @@ class Menu extends React.Component{
     render(){
         return(
             <div className=" bg-[#101112]">
-                <ul className="w-11/12 mx-auto flex text-white text-xl font-medium py-5 gap-16">
+                <ul className="w-11/12 mx-auto flex text-white text-lg font-medium py-3 gap-8">
                     <li>Special Deals</li>
                     <li>League of Legends</li>
                     <li>CS:GO</li>

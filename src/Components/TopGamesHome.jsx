@@ -40,18 +40,18 @@ export default class TopGamesHome extends Component {
         <div className='flex gap-5'>
         {this.state.array.map((ele)=>{
             return(
+                <div className='w-[148px] h-[215px] '>
                 <div>
-                <div>
-                    <img src={ele.image} alt="" className='w-[160px] h-[235px]'/>
+                    <img src={ele.image} alt="" className='w-[145px] h-[215px]'/>
                 </div>
                 <div className='w-[160px]'>
-                <h1 className='text-white font-semibold text-xl pt-5'>{ele.title}</h1>
+                <h1 className='text-white font-semibold text-lg pt-5'>{ele.title}</h1>
                 </div>
                 </div>
             )
         })}
         </div>
-        <hr className='h-[3px] bg-white mt-10'/>
+        <hr className='h-[3px] bg-white mt-28'/>
       </div>
     )
   }
